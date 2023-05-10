@@ -1,0 +1,15 @@
+<mvc:View controllerName="com.example.approvepurchaseord.controller.App"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+   	xmlns:f="sap.f" 
+    
+    >
+    <App id="app">
+    <f:FlexibleColumnLayout id="idLayout"
+                 stateChange="onStateChanged"
+                backgroundDesign="Translucent"
+                layout="{config>/layout}"
+                />
+    </App>
+</mvc:View>

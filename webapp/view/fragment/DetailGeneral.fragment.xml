@@ -1,0 +1,28 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<VBox id="_IDGenVBox1" class="sapUiSmallMargin">
+		<f:SimpleForm id="SimpleFormDisplayColumn_oneGroup"
+			editable="false"
+			layout="ColumnLayout"
+			 >
+			<f:content>
+				<Label id="_IDGenLabel2" text="Purchase Order" />
+				<Text id="nameText" text="{app>PURCHASE_ORDER}" />
+				<Label id="_IDGenLabel1" text="Document Date" />
+				<Text id="_IDGenText1" text="{app>DOCUMENT_DATE}" />
+				<Label id="_IDGenLabel3" text="Location" />
+				<Text id="_IDGenText2" text="{app>LOCATION}" />
+				<Label id="_IDGenLabel4" text="Payment Terms" />
+				<Text id="countryText3" text="{app>PAYMENT_TERM}" />
+				<Label id="_IDGenLabel5" text="Incoterms" />
+				<Text id="countryText4" text="{app>INCOTERMS}" />
+				<Label id="_IDGenLabel6" text="Company Code" />
+				<Text id="countryText5" text="{app>COMPANY_CODE}" />
+				
+			</f:content>
+		</f:SimpleForm>
+	</VBox>
+</core:FragmentDefinition>

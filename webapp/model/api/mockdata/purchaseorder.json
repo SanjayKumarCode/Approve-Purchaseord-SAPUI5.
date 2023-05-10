@@ -1,0 +1,187 @@
+[
+    {
+        "NOTIFICATION_ID": "TESTING LABS",
+        "TESTING_LABS":"TESTING LABS",
+       
+        "LABS_TESTER_NAME": "Mr. Nag (Op. Purchaser(SRM) C5149591",
+        "UNIT":"EUR",
+        "TESTING_PRICE":"3.000,00",
+        "DATE_JOIN":"15.10.2013",
+         "NUMBER_OF_ITEMS":"1 item(s)",
+
+         "DESCRIPTION_DETAIL":"BASIC MOTOR 112 KW",
+         "QUANTITY_ST":"20.00 ST",
+         "SUBTOTAL_PRICE":"3.0000",
+         "PRICE_UNIT":"EUR",
+
+         "CUSTOMER_NAME_SHARE":"Anil Kumar",
+
+         "PURCHASE_ORDER":"8500201643",
+         "DOCUMENT_DATE":"15.10.2013",
+           "LOCATION":"Werk Hamburg (1000) (10569)",
+          "PAYMENT_TERM":"Due Immediately",
+          "INCOTERMS":"Deliverd Duty Paid (DDP), India",
+          "COMPANY_CODE":"IDES AG/eso-erp test (1000)",
+
+
+        "DESCRIPTION": "Test description 1",
+        "REPORTED_ON": "2021-01-01T18:25:43.511Z",
+        "MATERIAL": "Steel",
+        "REFERENCE": "00001",
+        "STATUS_ID": "O",
+        "STATUS_TEXT": "Open",
+        "IS_CLOSED": false,
+        "NOTIFICATION_TYPE": "Qualification 1",
+        "PROBLEM_CODE": "Problem code 1",
+
+         "Customer_Name":"Mr.Nag (Op. Purchaser SRM) C5149591",
+         "Date":"15.10.2013",
+
+
+
+        "LONG_TEXT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam est quam, aliquet ac mi et, feugiat gravida nunc. Donec vel erat sit amet justo viverra vehicula. Ut est nisl, pharetra nec urna eu, pharetra hendrerit velit. Integer ut arcu id erat elementum condimentum. Aliquam sagittis sem ut tellus molestie pellentesque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam est quam, aliquet ac mi et, feugiat gravida nunc. Donec vel erat sit amet justo viverra vehicula. Ut est nisl, pharetra nec urna eu, pharetra hendrerit velit. Integer ut arcu id erat elementum condimentum. Aliquam sagittis sem ut tellus molestie pellentesque",
+        "TASKS": [
+            {
+
+                "TASK_ID": "0001",
+                "TASK_CODE_TEXT": "Task code text",
+                "TASK_TEXT": "Task text",
+                "STATUS_ID": "REL",
+                "STATUS_TEXT": "Released",
+                "RESPONSIBLE_ID": "Z1234",
+                "RESPONSIBLE_TEXT": "User Name"
+            },
+            {
+                "TASK_ID": "0002",
+                "TASK_CODE_TEXT": "Task code text",
+                "TASK_TEXT": "Task text",
+                "STATUS_ID": "REL",
+                "STATUS_TEXT": "Released",
+                "RESPONSIBLE_ID": "1234",
+                "RESPONSIBLE_TEXT": "User Name"
+            },
+            {
+                "TASK_ID": "0003",
+                "TASK_CODE_TEXT": "Task code text",
+                "TASK_TEXT": "Task text",
+                "STATUS_ID": "PRO",
+                "STATUS_TEXT": "In Progress",
+                "RESPONSIBLE_ID": "USR2",
+                "RESPONSIBLE_TEXT": "User Name 2"
+            }
+        ],
+        "DOCUMENTS": [
+            {
+                "DOCUMENTNUMBER": "0-2022-12-HSJD",
+                "DESCRIPTION": "Document description 1",
+                "DOCUMENTTYPE": "DSN",
+                "DOCUMENTPART": "000",
+                "DOCUMENTVERSION": "00"
+            },
+            {
+                "DOCUMENTNUMBER": "0-2021-11-HSD",
+                "DESCRIPTION": "Document description 2",
+                "DOCUMENTTYPE": "DSN",
+                "DOCUMENTPART": "001",
+                "DOCUMENTVERSION": "01"
+            }
+        ],
+        "MATERIALS": [
+            {
+                "SORT": 1,
+                "OBJECT_CATEGORY": "Material",
+                "OBJECT_TEXT": "Object text 1",
+                "MATERIAL": "74264498",
+                "REMARK": "Approved Qty: 5"
+            },
+            {
+                "SORT": 2,
+                "OBJECT_CATEGORY": "Material",
+                "OBJECT_TEXT": "Object text 2",
+                "MATERIAL": "MK33672",
+                "REMARK": "Approved Qty: 5"
+            },
+            {
+                "SORT": 3,
+                "OBJECT_CATEGORY": "Material",
+                "OBJECT_TEXT": "Object text 3",
+                "MATERIAL": "PP900",
+                "REMARK": "Approved Qty: 5"
+            }
+        ],
+        "ATTACHMENTS": [
+            {
+                "ATTACHMENT_ID": "000001",
+                "SYSTEM_ID": "SYS1",
+                "FILE_NAME": "image.jpg",
+                "CREATION_DATE": "2012-04-23T18:25:43.511Z",
+                "CREATED_BY_ID": "USR1",
+                "CREATED_BY_TEXT": "User Name"
+               
+            },
+            {
+                "ATTACHMENT_ID": "000002",
+                "SYSTEM_ID": "SYS1",
+                "FILE_NAME": "document.pdf",
+                "CREATION_DATE": "2021-01-01T18:25:43.511Z",
+                "CREATED_BY_ID": "USR2",
+                "CREATED_BY_TEXT": "User Name 2",
+                "CONTENT": "data:application/pdf;base64"
+            }
+        ]
+    },
+    {
+        "NOTIFICATION_ID": "TESTING LABS",
+        "TESTING_LABS":"TESTING LABS",
+     
+        "LABS_TESTER_NAME": "Mr. Rahul Nazar (Op. Purchaser SRM) A",
+        "UNIT":"EUR",
+        "TESTING_PRICE":"2.000,00",
+        "DATE_JOIN":"13.10.2013",
+
+           "NUMBER_OF_ITEMS":"1 item(s)",
+
+
+           "DESCRIPTION_DETAIL":"BASIC MOTOR 440 KW",
+           "QUANTITY_ST":"30.00 ST",
+           "SUBTOTAL_PRICE":"2.0000",
+           "PRICE_UNIT":"EUR",
+
+           "PURCHASE_ORDER":"90140201646",
+         "DOCUMENT_DATE":"13.10.2013",
+           "LOCATION":"Werk Hamburg (800) (45637)",
+          "PAYMENT_TERM":"Due Immediately",
+          "INCOTERMS":"Deliverd Duty Paid (DDP), Delhi",
+          "COMPANY_CODE":"CDES UP/ieo-zpg test (5070)",
+
+
+
+           
+        "DESCRIPTION": "Test description 2",
+        "REPORTED_ON": "2022-01-01T18:25:43.511Z",
+        "MATERIAL": "Steel",
+        "REFERENCE": "00002",
+        "STATUS_ID": "O",
+        "STATUS_TEXT": "Open",
+        "IS_CLOSED": false,
+
+        
+        "Customer_Name":"Mr. Rahul Nazar (Op. Purchaser SRM) A",
+        "Date":"13.10.2013",
+
+
+        "CUSTOMER_NAME_SHARE":"Amit Maurya",
+
+
+
+        "NOTIFICATION_TYPE": "Qualification 2",
+        "PROBLEM_CODE": "Problem code 2",
+        "LONG_TEXT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam est quam, aliquet ac mi et, feugiat gravida nunc. Donec vel erat sit amet justo viverra vehicula. Ut est nisl, pharetra nec urna eu, pharetra hendrerit velit. Integer ut arcu id erat elementum condimentum. Aliquam sagittis sem ut tellus molestie pellentesque",
+        "TASKS": [],
+        "DOCUMENTS": [],
+        "MATERIALS": [],
+        "ATTACHMENTS": []
+    }
+    
+    
+]

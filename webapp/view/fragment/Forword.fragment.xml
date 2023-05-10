@@ -1,0 +1,57 @@
+<core:FragmentDefinition
+   xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	xmlns="sap.m" >
+    <Dialog>
+   <Table id="idPersonalTable"
+		inset="false" width="800px"
+		items="{path: 'app>/REQUEST_LIST'}"				
+					selectionChange="onSelectionChange"     
+        >
+
+<headerToolbar>
+			<OverflowToolbar>
+				<content>
+					<Title text="Share" level="H2" />
+                    	<core:Icon
+			src="sap-icon://share"
+			class="size1"
+			color="#031E48" >
+			<core:layoutData>
+				<FlexItemData growFactor="1" />
+			</core:layoutData>
+		</core:Icon>
+					<ToolbarSpacer />
+					
+					
+				</content>
+			</OverflowToolbar>
+		</headerToolbar>
+
+		<columns>
+			<Column 
+				demandPopin="true">
+				<Text text="Customer name" />
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem vAlign="Middle">
+				<cells>
+				
+				<Text
+				text="{app>CUSTOMER_NAME_SHARE}"/>
+				</cells> 
+			</ColumnListItem>
+         
+		</items>
+	</Table>
+
+    	<beginButton>
+			<Button text="OK" press="onClosePressed" />
+		</beginButton>
+
+        <endButton>
+			<Button text="Cencel" press="onClosePressed" />
+		</endButton>
+    </Dialog>
+</core:FragmentDefinition>
